@@ -1,13 +1,14 @@
 body{
-    margin: 0 auto;
-    font-family: Arial, Helvenica;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 * {
     box-sizing: border-box;
 }
 
 .header{
-    padding: 20px 70px 20px 32px;
+    padding: 20px 70px 70px 32px;
     display: flex;
     align-items: center;
 }
@@ -45,6 +46,7 @@ body{
     background:transparent;
     border: none;
     padding: 12px 23px;
+    width: 100%;
 }
 .button-search{
     width: 19px;
@@ -82,3 +84,46 @@ body{
 .user{
     padding-left: 45px;
 }
+.sidebar{
+    padding-left: 32px;
+}
+.nav-menu{
+    margin-top: 0;
+    margin-bottom: 60px;
+    list-style: none;
+    padding-left: 0;
+}
+.nav-link{
+    text-decoration: none;
+    color: #898989;
+    display: flex;
+    align-items: center;
+}
+.nav-link:hover{
+    color: #FF0000;
+}
+.nav-link:hover .icon{
+    fill: #FF0000;
+}
+.nav-item{
+    margin-bottom: 28px;
+}
+.nav-link .icon{
+    fill: #898989;
+}
+.nav-title{
+    font-family: Mulish;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+.nav-text{
+    margin-left: 13px;
+}
+.nav-image{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+}
+

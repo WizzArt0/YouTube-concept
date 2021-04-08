@@ -146,11 +146,11 @@ body{
     height: 26px;
     border-radius: 50%;
 }
-.channel{
+.channel, .recommended, .category{
     position: relative;
-    margin-bottom: 49px;
+    margin-bottom: 50px;
 }
-.channel-title{
+.channel-title,.recommended-title, .category-title{
     display: flex;
     align-items:center;
     text-decoration: none;
@@ -167,17 +167,17 @@ body{
 .channel-text{
     margin-left: 20px;
 }
-.video-cart{
+.video-cart, .category-video-cart{
     width: 250px;
 }
-.video-thumb{
+.video-thumb, .category-video-thumb{
     width: 250px;
     height: 150px;
     overflow: hidden;
     border-radius: 14px;
     position: relative;
 }
-.thumbnail{
+.thumbnail, .category-thumbnail{
     width: 250px;
     height: 150px;
     object-fit: cover;
@@ -233,4 +233,53 @@ body{
     position: absolute;
     right: 8%;
     top: 15px;
+}
+.recommended-video-cart{
+    width: 540px;
+}
+.recommended-video-thumb{
+    width: 540px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 14px;
+}
+.recommended-thumbnail{
+    width: 540px;
+    height: 250px;
+    object-fit: cover;
+}
+.category-avatar{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.category-text{
+    margin-left: 20px;
+}
+.subscribe-button{
+    width: 154px;
+    height: 40px;
+    position: absolute;
+    right: 14%;
+    top: 10px;
+    background-color: #FF0000;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.category-help-text{
+    font-size: 16px;
+    line-height: 20px;
+    color: #C2C2C2;
+    margin-left: 19px;
+    font-weight: 400;
+    padding-top: 7px;
+}
+.category-slider{
+    padding-bottom: 64px;
 }
